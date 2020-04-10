@@ -6,4 +6,5 @@
  *
  */
 module chifoumi {
+	requires java.desktop;
 }
