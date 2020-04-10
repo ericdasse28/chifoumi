@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author deric
+ *
+ */
+module chifoumi {
+}
