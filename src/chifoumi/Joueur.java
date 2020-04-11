@@ -2,9 +2,9 @@ package chifoumi;
 
 public class Joueur {
 	
-	private String nom; //TODO: Init in constructor
+	private String nom;
 	private int score = 0;
-	private IHMSaisie saisie; //TODO: Init in constructor
+	private IHMSaisie saisie;
 	
 	public Joueur(String nom) {
 		this.nom = nom;
