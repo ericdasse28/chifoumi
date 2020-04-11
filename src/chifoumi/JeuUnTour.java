@@ -2,8 +2,8 @@ package chifoumi;
 
 public class JeuUnTour {
 
-	private Joueur joueur1;
-	private Joueur joueur2;
+	protected Joueur joueur1;
+	protected Joueur joueur2;
 	
 	
 	public JeuUnTour(String nom1, String nom2) {
