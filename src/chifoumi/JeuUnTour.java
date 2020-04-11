@@ -14,7 +14,7 @@ public class JeuUnTour {
 	}
 
 
-	private void jouer() {
+	protected void jouer() {
 		tour();
 		joueur1.ecrireScore();
 		joueur2.ecrireScore();
@@ -23,7 +23,7 @@ public class JeuUnTour {
 	}
 
 
-	private void conclure() {
+	protected void conclure() {
 		String winner;
 		if (joueur1.getScore() > joueur2.getScore())
 			winner = joueur1.getNom();
@@ -40,7 +40,7 @@ public class JeuUnTour {
 	}
 
 
-	private void tour() {
+	protected void tour() {
 		Choix ch_joueur1 = joueur1.choisir();
 		Choix ch_joueur2 = joueur2.choisir();
 		
