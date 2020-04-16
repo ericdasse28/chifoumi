@@ -4,8 +4,11 @@ public class Jeu extends JeuUnTour {
 	private int scoreObjectif;
 	
 	public Jeu(String nom1, String nom2, int scoreObjectif) {
-		super(nom1, nom2);
+		super();
+		joueur1 = new Joueur(nom1);
+		joueur2 = new Joueur(nom2);
 		this.scoreObjectif = scoreObjectif;
+		jouer();
 		
 	}
 	

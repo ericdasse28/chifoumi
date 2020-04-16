@@ -6,6 +6,10 @@ public class JeuUnTour {
 	protected Joueur joueur2;
 	
 	
+	public JeuUnTour() {
+		
+	}
+	
 	public JeuUnTour(String nom1, String nom2) {
 		joueur1 = new Joueur(nom1);
 		joueur2 = new Joueur(nom2);
